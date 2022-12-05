@@ -23,7 +23,7 @@ resource "azurerm_subnet" "my_terraform_subnet" {
   address_prefixes     = ["10.0.1.0/24"]
 }
 
-# Create public IPs
+# Create public IPs 
 resource "azurerm_public_ip" "my_terraform_public_ip" {
   name                = "myPublicIP"
   location            = azurerm_resource_group.rg.location
