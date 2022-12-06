@@ -25,7 +25,7 @@ resource "azurerm_virtual_network" "my_terraform_network" {
   resource_group_name = azurerm_resource_group.rg.name
 }
 
-# Create subnet1
+# Create subnet
 resource "azurerm_subnet" "my_terraform_subnet" {
   name                 = "mySubnet"
   resource_group_name  = azurerm_resource_group.rg.name
