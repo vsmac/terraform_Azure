@@ -1,9 +1,9 @@
 ### backend
 terraform {
   backend "azurerm" {
-    resource_group_name  = "tamopstfstates"
-    storage_account_name = "tamopstf1babu"
-    container_name       = "ttfstatedevops"
+    resource_group_name  = "Terraform"
+    storage_account_name = "tfstatebabu"
+    container_name       = "tfstate"
     key                  = "tfstatedevops.tfstate"
   }
 }
